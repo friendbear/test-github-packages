@@ -4,6 +4,7 @@
   "description": "Nil",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "exit 0"
   },
   "repository": {
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/friendbear/test_github_packages#readme",
   "publishConfig": {
     "@friendbear:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@friendbear/test_github_packages": "^1.0.0"
   }
 }
