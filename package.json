@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/friendbear/test_github_packages/issues"
   },
-  "homepage": "https://github.com/friendbear/test_github_packages#readme"
+  "homepage": "https://github.com/friendbear/test_github_packages#readme",
+  "publishConfig": {
+    "@friendbear:registry": "https://npm.pkg.github.com"
+  }
 }
